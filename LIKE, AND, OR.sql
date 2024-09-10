@@ -119,13 +119,13 @@ b)SELECT primeiro_nome AS "Nome", sobrenome AS "Sobrenome", dataNasc "Data de Na
 
 --d)  SELECT * FROM Aluno ORDER BY dataNasc ASC
 
-/*SELECT 
+SELECT 
 	nome_Disciplina As "Nome da Disciplina", 
 	tipo_Disciplina AS "Unidade de Ensino" 
 FROM
 	Disciplina
 ORDER BY 
-	tipo_Disciplina DESC*/
+	tipo_Disciplina DESC
 
 SELECT 
 
@@ -135,7 +135,7 @@ SELECT
 
 FROM
 
-	Aluno dataNasc 
+	Aluno 
 WHERE 
 	datanasc > '2000.12.31' 
 ORDER BY 

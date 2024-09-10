@@ -112,13 +112,15 @@ INSERT INTO Aluno_Disciplina(Id_aluno, Id_Disciplina)
 
 SELECT * FROM Aluno
 
-b)SELECT primeiro_nome AS "Nome", sobrenome AS "Sobrenome", dataNasc "Data de Nascimento" FROM Aluno*/
+SELECT 
+	primeiro_nome AS "Nome",
+	sobrenome AS "Sobrenome", 
+	dataNasc "Data de Nascimento"
+FROM 
+	Aluno
 
-/*c) SELECT * FROM Aluno_Disciplina WHERE Id_Disciplina = 1*/
 
---d)  SELECT * FROM Aluno ORDER BY dataNasc ASC
-
-/*SELECT 
+SELECT 
 	nome_Disciplina As "Nome da Disciplina", 
 	tipo_Disciplina AS "Unidade de Ensino" 
 FROM
@@ -140,20 +142,6 @@ WHERE
 ORDER BY 
 	datanasc ASC
  
-
-/*• Crie um select que retorne o nome, sobrenome e data de nascimento de
-todos os alunos que:
-• O sobrenome termina com a letra (a)
-• O nome possua (m, a) nessa ordem, podendo ser maiúsculo ou minúsculo e
-ter caracteres antes, entre e depois das duas letras.
-• Os dados sejam ordenados pela data de nascimento em formato
-decrescente.
-• As colunas devem aparecer como: Nome do cliente; Sobrenome do
-cliente; Data de nascimento do cliente.*/
-
-SELECT 
-	primeiro_Nome
-
 
 SELECT 
 	datanasc
@@ -203,12 +191,6 @@ OR
 	nome_tipo
 IN ('Formação Básica', 'Formação acadêmica', 'Opcional', 'Optativa', 'Optimus Prime')
 
-----------------------------------------------------------
-
-/*Crie um select que retorne somente o nome das disciplinas que possuam nome
-entre algoritmos e gestão de projetos, incluindo estes. Ordene por nome de
-forma decrescente.
-• A coluna nome deve aparecer como Disciplina*/
 
 SELECT 
 	nome_disciplina AS "Disciplina"
