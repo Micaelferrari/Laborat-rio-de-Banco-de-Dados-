@@ -336,7 +336,6 @@ WHERE
 	Id_Aluno = 1
 AND
 	Id_disciplina = 6
-AND
 ----------------------------------------------------
 
 UPDATE Aluno_disciplina
@@ -425,7 +424,6 @@ WHERE
 	Id_aluno = 3
 AND
 	Id_disciplina = 7
-select * from 
 ------------------------------------------------------------
 
 UPDATE Aluno_disciplina
